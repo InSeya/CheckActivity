@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Your Favorite Student"
+        android:textSize="35dp"
+        android:textColor="@color/purple_200"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_marginTop="200dp"/>
+
+    <RadioGroup
+        android:id="@+id/radiogroupstudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/aaisha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aaisha" />
+
+        <RadioButton
+            android:id="@+id/saniya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saniya" />
+
+        <RadioButton
+            android:id="@+id/faraz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Faraz" />
+
+        <RadioButton
+            android:id="@+id/fayyaz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fayyaz" />
+
+        <RadioButton
+            android:id="@+id/Qazi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Luhif" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/showbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW" />
+
+
+
+
+</LinearLayout>
